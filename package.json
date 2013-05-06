@@ -1,0 +1,26 @@
+{
+  "name": "add-z-lift",
+  "version": "0.0.1",
+  "description": "Add z-lift between moves for KISSlicer",
+  "keywords": [
+	  "KISSlicer",
+	  "z-lift",
+	  "3D Print Geeks"
+  ],
+  "author": {
+    "name": "Austin Floyd",
+    "email": "texsc98@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afloyd/add-z-lift"
+  },
+  "devDependencies": {
+  	"carrier": "0.1.10",
+  	"async": "0.2.8"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
