@@ -37,6 +37,7 @@ This creates a file in the same directory it's ran called `yoda-zlifts.gcode`, w
 Additional Options
 ==================
 You can specify a few options to the command line:
+
 `node ./kisslicer-zlift yoda.gcode -m 20` (short for `-min`) will tell it to only put in z-lift when the distance moved is greater than 20mm instead of 6mm.
 
 `node ./kisslicer-zlift yoda.gcode -h 1` (short for `-height`) will tell it to perform 1mm z-lift instead of the default 0.5mm.
