@@ -8,16 +8,6 @@ Must be installed/run from the command line. NPM & Node >=v10.x required to run.
 
 Installation
 ==============
-$ git clone `https://github.com/afloyd/kisslicer-zlift.git`
-
-$ npm install
-
-
-That's it!
-
-
-Running
-===========
 I have a "prints" folder on my machine, and have the kisslicer-zlift directory nested inside of it
 ie:
 
@@ -28,6 +18,23 @@ c:\prints
 	yoda.gcode
 ```
 
+So to get the code you can do:
+
+`$ git clone https://github.com/afloyd/kisslicer-zlift.git`
+
+(Or just download the zip file: https://github.com/afloyd/kisslicer-zlift/archive/master.zip and unzip into a filder)
+
+
+Then run this to get the dependencies:
+
+`$ npm install`
+
+
+That's it!
+
+
+Running
+===========
 So from inside \prints to run the code I type:
 
 `node ./kisslicer-zlift yoda.gcode`
